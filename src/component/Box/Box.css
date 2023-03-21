@@ -1,0 +1,22 @@
+.box{
+    background-color: white;
+    border: none;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10%;
+    box-shadow: 0 0 8px #888888;
+    margin: 0.5rem;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Fredoka",sans-serif;
+}
+.box:hover{
+  box-shadow: 0 0 15px #888888;
+}
+.x{
+    color: red;
+}
+.o{
+    color: blue;
+}

@@ -1,0 +1,29 @@
+.scoreBorad{
+    width: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white ;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.score{
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.xScore{
+    color:red;
+   
+    border-bottom: 3px solid red;
+}
+.oScore{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+.inactive{
+    border-bottom: none;
+}
