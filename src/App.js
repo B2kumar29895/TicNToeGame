@@ -16,7 +16,7 @@ function App() {
   [0, 4, 8],
   [2, 4, 6]
 ];
-const [xPlaying,setXPlaying]=useState(false);
+const [xPlaying,setXPlaying]=useState(true);
 const [score,setScore]=useState({xScore:0,oScore:0});
 const [gameOver, setGameOver] = useState(false);
 const [winner,SetWinner]=useState('');
